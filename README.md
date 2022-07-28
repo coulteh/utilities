@@ -18,3 +18,11 @@ Usage:
 Creates `image.new_format`
 
 Uses Pillow to convert the image. Supported formats are here: https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html
+
+## find_lines_with_pattern.py
+Reads a file, and a search pattern (a string), and returns each line in the file that matches the pattern. This is a simple pattern match - no regex.
+
+Usage:
+`python find_lines_with_pattern.py <path_to_file> <search_string>`
+
+Creates `file_match.suffix`
